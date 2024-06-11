@@ -1,0 +1,201 @@
+Summary of changes from vanilla:
+
+===GENES===
+
+Archite
+- Archite Metabolism: Increased metabolism to 8
+This change was made because of the expense and difficulty to acquire archite metabolism. It should be worth it to get and use.
+
+Abilities
+- Reduced cooldowns to:
+  - Firespew: 2.5 days
+  - Foam Spray: 2 hours
+  - Acid Spray: 1 hour
+  - Animal Warcall: 2.5 days
+These changes were made so people use these abilities more.
+
+Hemogen
+- Deathrest: Increased metabolism to 8
+Increased because causing a pawn to go into a coma twice a year is significant and there should be a larger incentive to make use of it.
+
+Health
+- Wound healing, Slow: Increased metabolism to 4
+This can be a brutal gene to have on pawns, so it's worth more metabolism now.
+- Wound healing, Superfast: Decreased metabolism to -4
+Inverse of above. Very helpful gene.
+- Superclotting: Decreased metabolism to -3
+A cost of -1 was pitifully low for how good this is.
+
+Psy-sensitivity
+- Super psysensitive: Increased metabolism to -3
+- Psy sensitive: Increased metabolism to -1
+- Psychically dull: Increased metabolism to 2
+- Psychically deaf: Increased metabolism to 3
+Psychic sensitivity was too expensive in general.
+
+Movement Speed
+- Slow runner: Increased penalty by 50%
+- Fast runner: Increased positive by 50%
+- Very fast funner: Increased positive by 50%
+- Naked speed: Changed so that unclothed is equivalent to fast runner and clothed is equivalent to slow runner
+Should hopefully make these genes more relevant.
+
+Temperature
+- Cold Weakness: Increased to +10 degrees
+                 Metabolism increased to 2
+- Cold tolerant: Decreased to -20
+                 Metabolism decreased to -2
+- Cold super-tolerant: Decreased to -30
+                 Metabolism decreased to -3
+- Heat Weakness: Decreased to -10 degrees
+                 Metabolism increased to 2
+- Heat tolerant: Increased to 20
+                 Metabolism decreased to -2
+- Heat super-tolerant: Increased to 30
+                 Metabolism decreased to -3
+Temperature is much more noticable and relevant with the above changes. Impids will struggle in the cold, and yttakins should struggle in the heat. However, both are now much better in their home environments.
+
+Resistance and Sensitivity
+- Rox resistance: Buffed to 75% resistance
+Nobody used this gene anyway.
+
+Violence
+- Violence Disabled: Increased metabolism to 5
+Disabling violence is incredibly impactful, and the offset should account for that.
+- Kill Thirst: Now adds a hediff indicating that the pawn has a need to regularly kill. In my experience, this helps remind the player about this need. The hediff is cosmetic, with no actual function.
+
+Sleep
+- Very sleepy: Decreased effects to 140% (equivalent of old Sleepy gene)
+               Increased metabolism to 5
+- Sleepy: Decreased effects to 120%
+          Increased metabolism to 3
+Sleepy and Very Sleepy were much, much worse for pawns than deathrest, despite being significantly less metabolism. I've made them easier to deal with and they provide more metabolism.
+
+Misc
+- Strong stomach: Now mutually exclusive with robust digestion
+- Robust digrestion: Now includes the effects of strong stomach
+                     Metabolism decreased to -3
+I still don't understand why Ludeon wanted two stomach genes, so I've made them into a loose tier, with Robust being the stronger version of the two, but more expensive.
+- Slow Learning: Metabolism increased to 3
+This is possibly the must unfun gene in the game, severely hampering any pawn that has it. Rather than increase its metabolism to 5 or 8, I chose 3 and then removed it from neanderthals by default.
+- Trotter hands: Metabolism increased to 3
+Trotter hands suck. Their metabolism should reflect that.
+- Elongated fingers: Metabolism decreased to -2
+Elongated fingers should be more expensive for how good they are.
+- Smooth Tail: Metabolism decreased to -2
+With elongated fingers and tail together, that's +15% metabolism for -4 metabolism. A good tradeoff. Plus, smooth tail should be more expensive than the other tails, which are primarily temperature-related.
+- Furskinned: Temperature decreased to -20 degrees.
+              Butchering furskinned pawns now drops human fur, a new form of cannibalist material with the same effects as human leather, but stats more oriented towards surviving the cold.
+
+Drugs
+- Addiction resistance genes are now 20% chance of addiction instead of 50%
+- Addiction immunity is now -2 metabolism, while addiction resistance is now -1 metabolism, with the exception of alcohol and smokeleaf.
+- Alcohol and smokeleaf resistance is now free, with addiction immunity having -1 metabolism
+Nobody used these genes. They've been made better and cheaper. In the case of alcohol and smokeleaf, they're nearly free.
+
+===XENOTYPES===
+
+Dirtmole
+- Removed fast wound healing.
+Contributed little to their identity and not mentioned in lore.
+- Removed intense UV sensitivity, replaced with mild
+Why are these guys more sensitive to sunlight than literal vampires?
+- Added stone sense gene, which boosts mining output
+
+Genies
+- Removed Remarkable Intelligence. Replaced with good intelligence.
+Genies are smart, but they're described as engineers, lawyers, etc. Not super-geniuses. Plus, intelligence is an easy skill to level, making the metabolism cost somewhat not worth it.
+- Added fast learning.
+Because they're supposed to be smart, and because it helps them fit in their role as crafters more easily in game.
+
+Hussar
+- Removed Partial Antitoxic Lungs. Replaced with partial tox resistance.
+This is part of a general trend to put antitoxic lungs on genotypes and tox resistance on genotypes. Also, partial tox resistance is slightly stronger with its buff.
+- Added Unsettling gene, which keeps with the lore that hussars make people uncomfortable.
+
+Sanguophages
+- Removed psy-sensitive and replaced with super psy-sensitive.
+There were no super psy-sensitive xenotypes, and this felt like a good fit for the xenotype. Makes them better psycasters, which fits with their royal aesthetic.
+- Removed mild sun sensitivity, replaced with extreme sun sensitivity.
+They're literal vampires.
+- Removed Fast Runner. Added Lunar Enthusiasm
+This gene caused Impids to get slower. It was awkward. With Lunar Enthusiasm, they retain their speed boosts in situations where it matters most, and impid sanguophages are now even faster.
+- Added Superclotting gene.
+Helps keep them relevant in melee combat despite the fire weakness.
+- Added Charming gene.
+They're attractive and have good social. Makes sense they'd be charming as well.
+
+Neanderthal
+- Removed Slow Runner
+They're nearly-regular humans, just stocky and tough. Why would they be slow? Note that this does make kiting neanderthal raids harder. Which I think is fine.
+- Removed Temperature resistances
+They're nearly-regular humans, just stocky and tough. Why would they be better in the cold or heat?
+- Removed slow learner
+This gene really makes neanderthals suck.
+- Removed Bad Shooting gene.
+They're nearly-regular humans. While yes, they're more melee-focused, there's nothing to indicate their eyesight is bad. Plus, they arrive with ranged weapons during raids.
+- Added mentally resilient.
+These are neanderthals, who eke out an existance in harsh circumstances. They are not dumb. Coming from their harsh circumstances, it makes sense they're somewhat more accustomed to difficult times.
+- Added poor fine motor.
+Do you really need your neanderthals doing surgery? This should help keep with the aesthetic that they might be a little clumsy or too rough and tumble for fine work.
+
+Pigskins
+- Removed strong stomach
+With the changes to robust digestion, it's unnecessary.
+- Removed strong immunity, replaced with super strong.
+They're pigs. They eat anything. They should be hardy.
+- Added partial antitoxic lungs.
+Keeping with the theme of antitoxic lungs being more of a natural genotype gene than an artificial xenotype gene.
+
+Impids
+- Removed slow wound healing
+No lore justification
+- Removed pessimist, replaced with depressive
+I needed to put depressive somewhere to increase variety, and it's counteracted by solar enthusiasm
+- Removed bad plants, replaced with terrible plants.
+They are specifically mentioned in the lore to be shitty farmers.
+- Removed bad animals.
+They're a tribal society. Why would they be bad at working with animals?
+- Added standard and thin body types.
+Considering how weak they are, it didn't make sense for them to be big and chunky
+- Added imp tail
+Helped to round out the selection of tail genes, and also increases their resistance to desert heat
+- Added terrible melee
+- Added pale red skin and blonde hair
+More appearance variety
+
+Waster
+- Removed poor cooking and artistic
+It's not mentioned in the lore, and it felt like an arbitrary limitations to the xenotype.
+- Removed terrible animals, replaced with poor animals.
+This was done to balance their metabolism
+- Added inkblack skin
+More appearance variety
+
+Yttakin
+- Removed Aggressive.
+Based on the lore, Yttakin are relusive but they're not particularly impulsive. In fact, they're portrayed as careful and seemingly cunning. The only justification for being aggressive is that they're raiders.
+- Added heat sensitivity and super cold resistance
+These guys were made for cold. Let them be good in cold.
+- Added claws
+I wanted some way to differentiate these guys from neanderthals as melee pawns. Claws also fit with their aesthetic.
+
+Highmates
+- Removed sheer white skin.
+The blue skin is more iconic, in my opinion. This leaves white skin available to be used as an aesthetic for other xenotypes.
+- Removed heat sensitivity
+Ludeon probably only added this for metabolism. There's no lore justification.
+- Removed terrible mining and plants
+Highmates are described as "poor manual laborers" but these sort of arbitrary skill restrictions make panws more boring rather than more interesting to use.
+- Added Insatiable gene
+A new gene that adds a need for lovin, which operates similar to kill thirst. You know why it's here.
+- Added Less Fertile.
+With a high libido and a need for regular lovin', this is here to prevent baby overload at your colony.
+- Added Bisexual gene
+This is the only xenotype with a sexuality gene added. It makes sense for highmates, who are essentially career mates. It's also lore-friendly because highmates would occasionally get same-gendered lovers in vanilla.
+- Added charming gene
+- Added slow aging gene
+- Added terrible construction
+An attempt to rectify the whole "poor manual laborers" idea. Maybe don't have your highmates building everything.
+- Added teal skin tone gene
+More appearance variety
