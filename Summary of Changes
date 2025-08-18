@@ -56,13 +56,13 @@ Temperature
 Temperature is much more noticable and relevant with the above changes. Impids will struggle in the cold, and yttakins should struggle in the heat. However, both are now much better in their home environments.
 
 Resistance and Sensitivity
-- Rox resistance: Buffed to 75% resistance
+- Tox resistance: Buffed to 75% resistance
 Nobody used this gene anyway.
 
 Violence
 - Violence Disabled: Increased metabolism to 5
 Disabling violence is incredibly impactful, and the offset should account for that.
-- Kill Thirst: Now adds a hediff indicating that the pawn has a need to regularly kill. In my experience, this helps remind the player about this need. The hediff is cosmetic, with no actual function.
+- Kill Thirst: Now adds a hediff indicating that the pawn has a need to regularly kill. This helps remind the player about this need. The hediff is cosmetic, as Kill Thirst's effects are tied to the need bar.
 
 Sleep
 - Very sleepy: Decreased effects to 140% (equivalent of old Sleepy gene)
@@ -73,7 +73,7 @@ Sleepy and Very Sleepy were much, much worse for pawns than deathrest, despite b
 
 Misc
 - Strong stomach: Now mutually exclusive with robust digestion
-- Robust digrestion: Now includes the effects of strong stomach
+- Robust digestion: Now includes the effects of strong stomach
                      Metabolism decreased to -3
 I still don't understand why Ludeon wanted two stomach genes, so I've made them into a loose tier, with Robust being the stronger version of the two, but more expensive.
 - Slow Learning: Metabolism increased to 3
@@ -146,6 +146,8 @@ With the changes to robust digestion, it's unnecessary.
 They're pigs. They eat anything. They should be hardy.
 - Added partial antitoxic lungs.
 Keeping with the theme of antitoxic lungs being more of a natural genotype gene than an artificial xenotype gene.
+- Added alcohol addiction resistance.
+The gene is free now, and it fits with Pigskins having robust digestive tracts.
 
 Impids
 - Removed slow wound healing
@@ -174,7 +176,7 @@ More appearance variety
 
 Yttakin
 - Removed Aggressive.
-Based on the lore, Yttakin are relusive but they're not particularly impulsive. In fact, they're portrayed as careful and seemingly cunning. The only justification for being aggressive is that they're raiders.
+Based on the lore, Yttakin are reclusive but they're not particularly impulsive. In fact, they're portrayed as careful and seemingly cunning. The only justification for being aggressive is that they're raiders.
 - Added heat sensitivity and super cold resistance
 These guys were made for cold. Let them be good in cold.
 - Added claws
@@ -182,20 +184,45 @@ I wanted some way to differentiate these guys from neanderthals as melee pawns. 
 
 Highmates
 - Removed sheer white skin.
-The blue skin is more iconic, in my opinion. This leaves white skin available to be used as an aesthetic for other xenotypes.
+The blue skin is more iconic, in my opinion.
 - Removed heat sensitivity
 Ludeon probably only added this for metabolism. There's no lore justification.
 - Removed terrible mining and plants
 Highmates are described as "poor manual laborers" but these sort of arbitrary skill restrictions make panws more boring rather than more interesting to use.
-- Added Insatiable gene
-A new gene that adds a need for lovin, which operates similar to kill thirst. You know why it's here.
+- Added Appealing gene
+Makes other pawns attempt romance against highmates more often. If an affair or breakup happens, the highmate's partner will be more upset about it. This is strictly a debuff (despite the name), so it gives 3 metabolism.
 - Added Less Fertile.
-With a high libido and a need for regular lovin', this is here to prevent baby overload at your colony.
+With a high libido, this is here to prevent baby overload at your colony.
 - Added Bisexual gene
-This is the only xenotype with a sexuality gene added. It makes sense for highmates, who are essentially career mates. It's also lore-friendly because highmates would occasionally get same-gendered lovers in vanilla.
+This is the only xenotype with a sexuality gene added. It makes sense for highmates, who are career mates according to the lore. It also fits with the default game, as highmates sometimes got same-gendered lovers in vanilla.
 - Added charming gene
 - Added slow aging gene
 - Added terrible construction
 An attempt to rectify the whole "poor manual laborers" idea. Maybe don't have your highmates building everything.
 - Added teal skin tone gene
 More appearance variety
+
+Starjacks (Odyssey only)
+- Removed heat resistance.
+Space is cold in Rimworld, so the heat resistance is just wasted metabolism.
+- Removed terrible animals.
+Arbitrary skill restriction.
+- Removed cold super resistance. Replaced with regular resistance.
+Because of the cold balance changes in this mod, this felt unnecessary.
+- Removed terrible mining.
+Same as animals. It's an arbitrary restriction.
+- Added thin and regular body type.
+Starjacks are a space-borne xenotype, so their bodies should reflect the loss of bone and muscle density.
+- Added light grey skin.
+Appearance variety.
+-Added nonterrestrial
+As a space-borne xenotype, gravity should have some sort of deleterious effect on them.
+
+
+MODDED COMPATIBILITY CHANGES
+
+There are too many to count. IN GENERAL, all I did was modify metabolisms to make sure that my vanilla changes didn't cause knock-on effects on other mod xenotypes.
+
+I also changed the gene positions in the menus to increase legibility of the gene selection menu.
+
+Some limited additions of my genes to VRE xenotypes when they make sense, such as adding Lunar Enthusiasm to the new VRE Sanguophage varieties.
