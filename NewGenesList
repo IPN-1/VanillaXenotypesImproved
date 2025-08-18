@@ -4,6 +4,8 @@ Full list of new genes added:
 - Three capacity traits: blind, deaf, and mute
 - Two new eye colors
 - Two new skin colors
+- Appealing
+    - Makes pawns more likely to attempt romance the gene-holder, and makes affairs and break-ups more difficult for their partners
 - Charming and Unsettling
     - Influences negotiation ability, pawn opinion, and romance chances
 - Clawed hands
@@ -24,10 +26,14 @@ Full list of new genes added:
     - Increase melee dodge, trap avoidance, and increases firing rate for guns
 - Less Fertile gene
     - Does what it says (also my favorite icon)
+- Nonterrestrial
+    - Caps comfort at 25% when on the planet surface
+    - Increase pain by 15% on planet surface
 - Insatiable
-    - Adds a Lovin' Need that acts similarly to Kill Thirst, in that it provides a building negative moodlet if the need remains unfulfilled, but no health complications
-- Solar and Lunar Enthusiasm
-    - Increases mood and work speed while outside during the day or night
+    - Adds a Lovin' Need that acts similarly to Kill Thirst, in that it provides a building negative moodlet if the need remains unfulfilled, but no health complications. Hidden if VRE Highmates is active.
+- Solar, Lunar, and Stellar Enthusiasm
+    - Increases mood and work speed while outside during the day, night, or in space
+    - Cannot stack
 - Mentally Fragile and Resilient
     - Increases or decreases mental break thresholds
 - Nerve Stapled
