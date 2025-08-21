@@ -170,13 +170,13 @@ Waster
 - Removed poor cooking and artistic
 It's not mentioned in the lore, and it felt like an arbitrary limitations to the xenotype.
 - Removed terrible animals, replaced with poor animals.
-This was done to balance their metabolism
+This was done to balance their metabolism. It also makes some sense because there are very few animals that are resistant to toxic environments.
 - Added inkblack skin
 More appearance variety
 
 Yttakin
 - Removed Aggressive.
-Based on the lore, Yttakin are reclusive but they're not particularly impulsive. In fact, they're portrayed as careful and seemingly cunning. The only justification for being aggressive is that they're raiders.
+Based on the lore, Yttakin are reclusive but they're not particularly impulsive. In fact, they're portrayed as careful and seemingly cunning. The only justification for being aggressive is that they're raiders, but there's already several aggressive xenotypes.
 - Added heat sensitivity and super cold resistance
 These guys were made for cold. Let them be good in cold.
 - Added claws
@@ -184,19 +184,20 @@ I wanted some way to differentiate these guys from neanderthals as melee pawns. 
 
 Highmates
 - Removed sheer white skin.
-The blue skin is more iconic, in my opinion.
+The blue skin is more iconic, in my opinion. There are also now two white-ish skinned xenotypes with dirtmoles and starjacks.
 - Removed heat sensitivity
 Ludeon probably only added this for metabolism. There's no lore justification.
 - Removed terrible mining and plants
-Highmates are described as "poor manual laborers" but these sort of arbitrary skill restrictions make panws more boring rather than more interesting to use.
+Highmates are described as "poor manual laborers" but these sort of arbitrary skill restrictions make pawns more boring rather than more interesting to use.
 - Added Appealing gene
-Makes other pawns attempt romance against highmates more often. If an affair or breakup happens, the highmate's partner will be more upset about it. This is strictly a debuff (despite the name), so it gives 3 metabolism.
+Makes other pawns attempt romance against highmates more often. If an affair or breakup happens, the highmate's partner will be more upset about it. This is strictly a debuff (despite the name), so it helps round out metabolism in a way that fits with the xenotype's aesthetic.
 - Added Less Fertile.
 With a high libido, this is here to prevent baby overload at your colony.
 - Added Bisexual gene
-This is the only xenotype with a sexuality gene added. It makes sense for highmates, who are career mates according to the lore. It also fits with the default game, as highmates sometimes got same-gendered lovers in vanilla.
+This is the only xenotype with a sexuality gene added. It makes sense for highmates, who are career mates according to the lore. It also fits with the default game, as highmates sometimes got same-gendered lovers with incompatible orientations in vanilla due to quirks in the romance system.
 - Added charming gene
 - Added slow aging gene
+The base game somewhat simulated this with the default grayless hair gene.
 - Added terrible construction
 An attempt to rectify the whole "poor manual laborers" idea. Maybe don't have your highmates building everything.
 - Added teal skin tone gene
@@ -204,7 +205,7 @@ More appearance variety
 
 Starjacks (Odyssey only)
 - Removed heat resistance.
-Space is cold in Rimworld, so the heat resistance is just wasted metabolism.
+Space is cold in Rimworld, so the heat resistance is just wasted metabolism. I get that IRL space travel would probably require some degree of heat resistance, but metabolism is tight as it is on starjacks, and this gene has little functional gameplay effect.
 - Removed terrible animals.
 Arbitrary skill restriction.
 - Removed cold super resistance. Replaced with regular resistance.
@@ -215,14 +216,16 @@ Same as animals. It's an arbitrary restriction.
 Starjacks are a space-borne xenotype, so their bodies should reflect the loss of bone and muscle density.
 - Added light grey skin.
 Appearance variety.
--Added nonterrestrial
+- Added nonterrestrial
 As a space-borne xenotype, gravity should have some sort of deleterious effect on them.
 
 
-MODDED COMPATIBILITY CHANGES
+===MODDED COMPATIBILITY CHANGES===
 
-There are too many to count. IN GENERAL, all I did was modify metabolisms to make sure that my vanilla changes didn't cause knock-on effects on other mod xenotypes.
+There are too many to count, but the general trend of my changes are to rebalance metabolisms for newly-added genes so that any knock-on effects from my changes to metabolism to are minimized or eliminated. I primarily targeted genes that were specific to that xenotype or unique to the premise of that xenotype to avoid further knock-on effects.
 
-I also changed the gene positions in the menus to increase legibility of the gene selection menu.
+Another reason for this approach is that there are a LOT of xenotype mods, and I'd rather not interfere with the vision of that mod. I'd rather just make sure the xenotype is still functioning despite my many metabolism changes to vanilla genes.
 
-Some limited additions of my genes to VRE xenotypes when they make sense, such as adding Lunar Enthusiasm to the new VRE Sanguophage varieties.
+I also changed the gene positions in the menus to increase legibility of the gene selection menu. I pretty much only did this for VRE, mostly because those mods are popular, but also because several of those mods do not have any respect for keeping the gene menu clean and organized and it annoyed the shit out of me.
+
+I made some limited additions of my genes to VRE xenotypes when they make sense, such as adding Lunar Enthusiasm to the new VRE Sanguophage varieties.
